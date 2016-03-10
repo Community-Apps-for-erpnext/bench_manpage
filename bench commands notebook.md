@@ -1,13 +1,11 @@
-**Create a new site**
-
     bench new-site [site_name]
-
-**Change the nginx port** (to be different then then standard port 80
+creates a new site [site_name]
 
     bench set-nginx-port [site_name] [port_number]
-
-**Re generate nginx configuration**
+changes the nginx port for [site_name] to [port_number]. Erpnext by default runs on port 80.
 
     bench setup nginx
+allows you to re generate the nginx configuration
+
 
 
